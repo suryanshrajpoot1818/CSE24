@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol</title>
+</head>
+<body>
+    <script type="text/javascript">
+        const sym1 = Symbol(4)
+        console.log(sym1);
+        const sym2 = Symbol(4);
+        console.log(sym2);
+        if(sym1 == sym2){
+            console.log("true");
+        }
+        else{
+            console.log("false")
+        }
+    </script>
+</body>
+</html>
